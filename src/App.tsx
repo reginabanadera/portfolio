@@ -19,6 +19,7 @@ import {
   GraduationCap,
   Briefcase,
 } from "lucide-react";
+import { Analytics } from "@vercel/analytics/react";
 
 /* -----------------------------------------------------------
    DESIGN TOKENS
@@ -648,6 +649,7 @@ export default function Portfolio() {
       <WhatIDo />
       <Contact />
       <FloatingButtons />
+      <Analytics />
     </div>
   );
 }
